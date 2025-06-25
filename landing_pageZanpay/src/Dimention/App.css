@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.upperContainer {
+    background-color: #04202B;
+    color: white;
+    padding: 50px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+header .headerName-Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .headerName-Menu h1 {
+    font-size: 1.5rem;
+}
+
+header .headerName-Menu i {
+    font-size: 1.7rem;
+    display: none;
+}
+
+.headerLinks ul {
+    display: flex;
+    list-style: none;
+}
+
+.headerLinks a {
+
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.headerLinks a:hover {
+    background-color: #0b435875;
+}
+
+button {
+
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+}
+
+.btnContainer button {
+    background-color: white;
+}
+
+.btnContainer button:first-of-type {
+    background-color: transparent;
+    color: white;
+}
+
+.main-section {
+    margin: min(100px, 15vw) 0;
+
+}
+
+.main-section .trusted-users {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #7ed5df17;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+
+}
+
+.trusted-users i {
+    color: #7ED6DF;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.trusted-users p {
+    font-size: min(1rem, 3.5vW);
+}
+
+.content {
+    width: fit-content;
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: min(4rem, 8vw);
+    max-width: 800px;
+}
+
+.content p {
+    margin: min(30px, 4vw) 0;
+    font-size: min(1.2rem, 3vw);
+    max-width: 900px;
+}
+
+.highlight {
+    background: linear-gradient(90deg, #709AD4, #84D6DD, #D6CCA6);
+    background-clip: text;
+    color: transparent;
+}
+
+.second-btnContainer {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.second-btnContainer>button {
+    font-size: min(16px, 2vw);
+    padding: 0.7em 1.5em;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #7ED6DF;
+}
+
+.second-btnContainer button:first-child {
+    background-color: #7ED6DF;
+    color: black;
+}
+
+.features-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: min(100px,8vw) auto;
+    max-width: 75rem;
+}
+
+.feature {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #7ed5df17;
+    margin: 10px;
+    padding: min(5vw, 20px);
+    border-radius: 10px;
+}
+
+.feature i {
+    font-size: min(2.5rem, 7vw);
+    color: #7ED6DF;
+}
+
+.feature h4 {
+    font-size: min(1.2rem, 5vw);
+    margin: min(15px, 2vw) 0;
+}
+
+.feature p {
+    font-size: min(1rem, 3vw);
+}
+
+.FinancialJourney-header {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+.FinancialJourney-header h2{
+    font-size: min(3rem, 7vw);
+
+}
+
+.FinancialJourney-header p {
+    font-size: min(1.2rem, 5vw);
+    margin: 20px 0;
+}
+
+.FinancialJourney-imagesContainer {
+    width: min(60rem, 80vw);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.FinancialJourney-imagesContainer div {
+    flex-grow: 1;
+    width: 30%;
+    background-color: green;
+    aspect-ratio: 1/1;
+    margin: min(10px,1vw);
+    padding: 5%;
+    border-radius: 10px;
+
+}
+
+.FinancialJourney-imagesContainer img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: block;
+    margin: 0 auto;
+    object-fit: fill;
+    border-radius: 10px;
+
+}
+
+.FinancialJourney-imagesContainer h2 {
+    font-size: min(1.5rem, 1.75vw);
+    margin: 5px 0;
+    margin: 10% auto 2% auto;
+}
+
+.FinancialJourney-imagesContainer p {
+    font-size: min(0.75rem, 1vw);
+}
+.CustomerStoriesContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 60rem;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.StoriesHeader{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.StoriesHeader h1{
+    font-size: min(2.5rem, 5vw);
+
+}
+.ArrowBtnContainer button{
+    background-color: transparent;
+    font-size: min(1.2rem,4vw);
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.Reviews-Stat{
+   
+    display: grid;
+    grid-template-columns: 70%  30%;
+   
+    margin-top: 30px;
+
+
+}
+.slider{
+    height: 220px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    
+}
+.sliderOuterBox{
+
+   
+    margin: 1%;
+    padding: 1%;
+    min-width: 100%;
+    max-width: 100%;
+    
+    
+}
+.sliderRiviews{
+   
+    transition: 0.5s transform ease;
+   
+   
+  
+
+}
+
+.customerReviews{
+   
+    font-size: min(2rem,6vw);
+}
+.customerinfo{
+   
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+   
+}
+.customerinfo img{
+    width: min(3.5rem, 12vw);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-right: 5px;
+   
+   
+}
+.customerinfo p{
+    font-size: 10px;
+    margin: 1px 0;
+}
+.ReviewsStat{
+    padding: 0 20px;
+}
+.ReviewsStat span{
+    font-size: min(40px,6vw);
+    font-weight: bold;
+    display: block;
+   
+   
+}
+.ReviewsStat p{
+
+    font-size: min(17px,4vw);
+    padding: 1vw 0;
+}
+.ReviewsStat span:first-of-type+p{
+
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+    }
+
+    header .headerName-Menu i {
+        display: block;
+    }
+
+    header .headerLinks {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .headerLinks ul {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+    .upperContainer{
+        padding-bottom: 0.5vw;
+    }
+
+    .headerLinks li {
+        border-bottom: 1px solid rgb(8, 45, 59);
+        padding: 10px 0;
+    }
+
+    .headerLinks a {
+        padding: 0;
+    }
+
+    .headerLinks a:hover {
+        background-color: transparent;
+        color: rgb(119, 217, 230);
+
+    }
+
+    .btnContainer {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .btnContainer button {
+        border: 1px solid white;
+
+    }
+
+    .features-box {
+        grid-template-columns: 1fr;
+    }
+
+    [visibility="none"] {
+        display: none;
+    }
+    .Reviews-Stat{
+        grid-template-columns: 1fr;
+       
+    
+    }
+    .sliderRiviews{
+       
+
+        text-align: left;
+       
+    }
+    .customerinfo h3{
+        font-size: 15px;
+    }
+    .ReviewsStat{
+        padding: 10px 20px;
+        background-color: gainsboro;
+        
+    }
+    .ReviewsStat span:first-of-type+p{
+
+        border-bottom: none;
+        margin-bottom: 5px;
+    }
+  
+
+   
+
+
+}
